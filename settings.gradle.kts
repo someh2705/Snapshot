@@ -15,3 +15,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "Snapshot"
 include(":app")
+include(":core:data")
+
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
