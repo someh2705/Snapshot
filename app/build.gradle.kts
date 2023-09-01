@@ -1,5 +1,6 @@
 plugins {
     id("snapshot.android.application")
+    alias(libs.plugins.detekt)
 }
 
 android {

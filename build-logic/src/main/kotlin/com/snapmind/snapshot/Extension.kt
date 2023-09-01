@@ -29,3 +29,7 @@ fun DependencyHandler.debugImplementation(notation: Any) {
 fun DependencyHandler.ksp(notation: Any) {
     add("ksp", notation)
 }
+
+fun DependencyHandler.detektPlugins(notation: Any) {
+    add("detektPlugins", notation)
+}

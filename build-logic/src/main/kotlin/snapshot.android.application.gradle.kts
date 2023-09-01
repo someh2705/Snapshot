@@ -5,7 +5,6 @@ import com.snapmind.snapshot.configureKotlinAndroid
 
 plugins {
     id("com.android.application")
-    id("org.jetbrains.kotlin.android")
 }
 
 configureKotlinAndroid(applicationExtension)

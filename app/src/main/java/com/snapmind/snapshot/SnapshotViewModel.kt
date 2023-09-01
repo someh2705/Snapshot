@@ -16,7 +16,7 @@ class SnapshotViewModel @Inject constructor(repository: Repository) : ViewModel(
             .fetchMessage()
             .stateIn(
                 viewModelScope,
-                SharingStarted.WhileSubscribed(5000),
+                SharingStarted.Lazily,
                 ""
             )
 }
