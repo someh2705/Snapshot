@@ -1,4 +1,6 @@
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         google()
         mavenCentral()
@@ -15,3 +17,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "Snapshot"
 include(":app")
+include(":core:data")
+include(":core:design")
+
