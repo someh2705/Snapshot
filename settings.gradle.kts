@@ -1,3 +1,4 @@
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 pluginManagement {
     repositories {
         google()
@@ -16,5 +17,5 @@ dependencyResolutionManagement {
 rootProject.name = "Snapshot"
 include(":app")
 include(":core:data")
+include(":core:design")
 
-enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
